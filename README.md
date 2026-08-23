@@ -1,10 +1,11 @@
 # 🏭 CastVigil: Edge-AI Automated Optical Inspection (AOI) for Industrial Quality Control
 
-[![AI Model](https://shields.io)](https://tensorflow.org)
-[![Framework](https://shields.io)](https://tiangolo.com)
-[![Deployment](https://shields.io)](https://onnxruntime.ai)
-[![GUI](https://shields.io)](https://tuxfamily.org)
 
+[![MobileNetV3](https://img.shields.io/badge/MobileNetV3-Architecture-orange)](https://tensorflow.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.x-009688)](https://fastapi.tiangolo.com)
+[![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-Inference-blue)](https://onnxruntime.ai)
+[![CustomTkinter](https://img.shields.io/badge/CustomTkinter-GUI-blueviolet)](https://customtkinter.tuxfamily.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 
 An end-to-end, high-performance Automated Optical Inspection (AOI) system designed for real-time defect detection in metal casting manufacturing lines. Operating completely at the edge with zero latency, **CastVigil** bridges the gap between deep learning research and robust industrial automation.
