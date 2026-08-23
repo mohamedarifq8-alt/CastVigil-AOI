@@ -1,9 +1,12 @@
 # 🏭 CastVigil: Edge-AI Automated Optical Inspection (AOI) for Industrial Quality Control
 
-[![AI Model](https://shields.io)](https://github.com)
-[![Framework](https://shields.io)](https://github.com)
-[![Deployment](https://shields.io)](https://github.com)
-[![GUI](https://shields.io)](https://github.com)
+<p align="left">
+  <img src="https://shields.io" alt="AI Model">
+  <img src="https://shields.io" alt="Framework">
+  <img src="https://shields.io" alt="Deployment">
+  <img src="https://shields.io" alt="GUI">
+</p>
+
 
 An end-to-end, high-performance Automated Optical Inspection (AOI) system designed for real-time defect detection in metal casting manufacturing lines. Operating completely at the edge with zero latency, **CastVigil** bridges the gap between deep learning research and robust industrial automation.
 
@@ -123,3 +126,9 @@ python dashboard.py
 ## 🚀 Vision & Future Scope
 * **Asynchronous Multi-threading:** Isolate the ONNX frame execution loop away from the main UI process to entirely avoid potential visual stuttering during video playback.
 * **Hardware Protocol Mapping:** Bind python serial frameworks directly to low-level microcontroller relays (e.g., Arduino or industrial Modbus PLC) to transform code logic outputs into actual hardware physical rejection-arm movements.
+
+
+
+## 👨‍💻 Author
+**Mohamed Arif Mahyoub Haider**
+*Electrical Engineer - Computer and Industrial Control*
