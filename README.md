@@ -93,8 +93,15 @@ The scalable web microservice providing instantaneous classification responses v
 
 ### Phase 3 Deployment: Local Factory Edge Dashboard
 The industrial operator cockpit showing automated camera image feeding, real-time diagnostic output, and simulated PLC signal triggers:
+
+#### 🟢 Inspection Mode: Approved Component (OK)
 <p align="center">
-  <img src="dashboard_screenshot.png" alt="Factory Edge Dashboard Live View" width="750"/>
+  <img src="dashboard_screenshot.png" alt="Factory Edge Dashboard Live View - Approved Product" width="750"/>
+</p>
+
+#### 🔴 Inspection Mode: Defect Interception (Defective)
+<p align="center">
+  <img src="dashboard_screenshot1.png" alt="Factory Edge Dashboard Live View - Defective Product Caught" width="750"/>
 </p>
 
 ---
