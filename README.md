@@ -30,7 +30,8 @@ In modern metal casting foundries, manufacturing components often suffer from st
 
 The system is strategically architected into three distinct phases to ensure a production-ready software lifecycle:
 
-* **Phase 1: Training & Model Optimization:** Utilizing Transfer Learning on the *Casting Product Image Data* dataset using an integrated data augmentation pipeline. The final model is compiled and exported into the high-performance universal **ONNX format**.
+* **Phase 1: Training & Model Optimization:** Utilizing Transfer Learning on the *Casting Product Image Data* dataset using an integrated data augmentation pipeline. The final model is compiled and exported into the high-performance universal **ONNX format**. By drastically compressing the model size, it can be seamlessly deployed directly onto low-powered microcontrollers and edge devices. This local execution ensures **maximum data privacy, total security (no factory images leave the local network), and ultra-fast inference speed**.
+
 * **Phase 2: Verification Microservice (FastAPI):** A lightweight backend web API developed to host the ONNX engine, enabling remote engineering teams to programmatically validate individual product images with structured JSON payloads.
 * **Phase 3: Edge-Native Production Dashboard:** A localized industrial Graphical User Interface (GUI) that captures real-time video frames from conveyor belt cameras, performs ultra-low-latency on-device inference, and simulates automated physical rejection through PLC/hardware-trigger communication signals.
 
@@ -132,6 +133,7 @@ python dashboard.py
 
 ## 🚀 Vision & Future Scope
 * **Asynchronous Multi-threading:** Isolate the ONNX frame execution loop away from the main UI process to entirely avoid potential visual stuttering during video playback.
+* **Microcontroller & Embedded Deployment:** Leverage the ultra-lightweight nature and compressed footprint of our ONNX model to deploy it directly onto hardware like Raspberry Pi, NVIDIA Jetson, or advanced microcontrollers, making the entire inspection unit fully standalone.
 * **Hardware Protocol Mapping:** Bind python serial frameworks directly to low-level microcontroller relays (e.g., Arduino or industrial Modbus PLC) to transform code logic outputs into actual hardware physical rejection-arm movements.
 
 
